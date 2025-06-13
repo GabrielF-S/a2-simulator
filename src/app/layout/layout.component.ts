@@ -2,19 +2,24 @@ import { Component, AfterViewInit, Renderer2, ElementRef, ViewChild } from '@ang
 
 @Component({
   selector: 'app-layout',
-   standalone: false,
+  standalone: false,
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements AfterViewInit {
-  
-  @ViewChild('sidebarNav', { static: false }) sidebarNav!: ElementRef;
-  @ViewChild('sidebarToggle', { static: false }) sidebarToggle!: ElementRef;
 
-  constructor(private renderer: Renderer2) {}
+  @ViewChild('sidebarNav') sidebarNav!: ElementRef;
+  @ViewChild('sidebarToggle') sidebarToggle!: ElementRef;
+
+  constructor(private renderer: Renderer2) { }
 
   ngAfterViewInit(): void {
-    const path = window.location.href;
+    let path='';
+
+    if (typeof window !== 'undefined') {
+      path = window.location.href;
+    }
+
 
     // Adiciona a classe "active" aos links correspondentes
     const navLinks = this.sidebarNav.nativeElement.querySelectorAll('.sb-sidenav a.nav-link');
