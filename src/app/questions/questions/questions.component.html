@@ -1,0 +1,52 @@
+<h1 class="mt-4">Simulado</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active"></li>
+</ol>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                <label for="respondidas"></label>
+                <label for="total">Total: {{answered.length}}/{{qtdQuestionTotal}}</label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h1>Questão {{questinIndex}}</h1>
+        <div class="col-md-12">
+            <form #questionForm="ngForm" (submit)="submit()">
+                <label for="enunciado">{{actualQuestion.enunciado}} </label>
+                <ul>
+                    <li *ngFor="let alternative of actualQuestion.alternatives">
+                        <input class="form-check-input" type="radio" name="alternative"  [(ngModel)]="selectdAlternative"
+                            [value]="alternative.texto">
+                        {{alternative.texto}}
+                    </li>
+                </ul>
+                <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                    <button type="button"
+                     (click)="voltarQuestion()" 
+                     class="btn btn-warning" 
+                     *ngIf="qtdRespondida>0 && questinIndex!=1">
+                         Voltar
+                    </button>
+                    <button type="button"
+                     (click)="salvarResposta()"
+                    class="btn btn-primary" 
+                    [disabled]="!selectdAlternative?.length"
+                     *ngIf="qtdRespondida<qtdQuestionTotal">
+                        Responder
+                    </button>
+                    <button type="submit" 
+                    (click)="submit()" 
+                    class="btn btn-success" 
+                    *ngIf="qtdRespondida==qtdQuestionTotal">
+                        Finalizar
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
