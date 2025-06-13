@@ -1,38 +1,35 @@
-import { Component, AfterViewInit, Renderer2, ElementRef, ViewChild } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
+import jQuery from 'jquery'
 
 @Component({
   selector: 'app-layout',
   standalone: false,
   templateUrl: './layout.component.html',
-  styleUrls: ['./layout.component.css']
+  styleUrl: './layout.component.css'
 })
 export class LayoutComponent implements AfterViewInit {
+  constructor() { }
 
-  @ViewChild('sidebarNav') sidebarNav!: ElementRef;
-  @ViewChild('sidebarToggle') sidebarToggle!: ElementRef;
-
-  constructor(private renderer: Renderer2) { }
-
-  ngAfterViewInit(): void {
-    let path='';
-
-    if (typeof window !== 'undefined') {
-      path = window.location.href;
-    }
-
-
-    // Adiciona a classe "active" aos links correspondentes
-    const navLinks = this.sidebarNav.nativeElement.querySelectorAll('.sb-sidenav a.nav-link');
-    navLinks.forEach((link: HTMLAnchorElement) => {
-      if (link.href === path) {
-        this.renderer.addClass(link, 'active');
-      }
-    });
-
-    // Adiciona o evento de clique para alternar o menu lateral
-    this.renderer.listen(this.sidebarToggle.nativeElement, 'click', (event) => {
-      event.preventDefault();
-      this.renderer.addClass(document.body, 'sb-sidenav-toggled');
-    });
+   ngAfterViewInit(): void {
+    (function($) {
+      "use strict";
+  
+      // Add active state to sidbar nav links
+      var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
+          $("#layoutSidenav_nav .sb-sidenav a.nav-link").each(function() {
+            const link = this as HTMLAnchorElement;
+              if (link.href === path) {
+                  $(this).addClass("active");
+              }
+          });
+  
+      // Toggle the side navigation
+      $("#sidebarToggle").on("click", function(e) {
+          e.preventDefault();
+          $("body").toggleClass("sb-sidenav-toggled");
+      });
+  })(jQuery);
+  
   }
+
 }

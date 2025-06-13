@@ -13,7 +13,7 @@ export class QuestionsComponent implements OnInit{
   questions : Question [] = [];
   qtdQuestionTotal: number = 0;
   qtdRespondida: number = 0;
-  actualQuestion!: Question;
+  actualQuestion: Question = new Question();
   answered: Question[] = [];
   selectdAlternative: string = '';
   questinIndex: number = 1;

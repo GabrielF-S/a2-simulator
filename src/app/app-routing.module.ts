@@ -5,11 +5,11 @@ import { LayoutComponent } from './layout/layout.component';
 import { QuestionsComponent } from './questions/questions/questions.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: '' , component:LayoutComponent, children: [
     {path: 'home' , component:HomeComponent },
     {path: 'questions', component: QuestionsComponent},
-    {path: '', redirectTo: '/home', pathMatch: 'full' },
-   
+
   ] },
 ];
 
