@@ -33,7 +33,7 @@
                     <button type="button"
                      (click)="salvarResposta()"
                     class="btn btn-primary" 
-                    [disabled]="!selectdAlternative?.length"
+                    [disabled]="!selectdAlternative.length"
                      *ngIf="qtdRespondida<qtdQuestionTotal">
                         Responder
                     </button>
