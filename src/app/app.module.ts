@@ -9,6 +9,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { TemplateModule } from './template/template.module';
 import { QuestionsModule } from './questions/questions.module';
+import { LeraningMaterialComponent } from './leraning-material/leraning-material.component';
 
 
 
@@ -17,6 +18,7 @@ import { QuestionsModule } from './questions/questions.module';
     AppComponent,
     HomeComponent,
     LayoutComponent,
+    LeraningMaterialComponent,
 
 
   ],

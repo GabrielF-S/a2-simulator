@@ -1,0 +1,14 @@
+<div class="container mt-4">
+  <h1>Material de Apoio</h1>
+  <p>Escolha um tema abaixo para ver explicações, fórmulas e exemplos úteis para resolver as questões.</p>
+
+  <label for="tema">Tema:</label>
+  <select id="tema" [(ngModel)]="temaSelecionado" class="form-control mb-3">
+    <option *ngFor="let tema of temas" [value]="tema">{{ tema }}</option>
+  </select>
+
+  <div *ngIf="conteudoAtual">
+    <h2>{{ conteudoAtual.titulo }}</h2>
+    <div [innerHTML]="conteudoAtual.html"></div>
+  </div>
+</div>

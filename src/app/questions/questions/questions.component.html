@@ -1,8 +1,23 @@
 <h1 class="mt-4">Simulado</h1>
 <ol class="breadcrumb mb-4">
-    <li class="breadcrumb-item active">Simulado Geral com todas as questões disponiveis</li>
+    <li class="breadcrumb-item active"></li>
 </ol>
 <div class="container">
+    <div class="row col-md-10" *ngIf="!questions.length">
+        <h1>Simulado de Matemática</h1>
+    <p>
+      Bem-vindo ao simulado de matemática! Este teste contém entre 10 e 25 questões de múltipla escolha, 
+      dependendo do tema selecionado. Cada pergunta possui apenas uma alternativa correta. 
+      Escolha abaixo o tema que deseja praticar:
+    </p>
+
+    <label for="tema">Selecione o tema:</label>
+    <select id="tema" [(ngModel)]="temaSelecionado" class="form-control" name="temaSelecionado">
+      <option *ngFor="let tema of temas" [value]="tema">{{tema}}</option>
+    </select>
+    <button class="btn btn-success mt-3" (click)="start(temaSelecionado)" [disabled]="!temaSelecionado">Iniciar Simulado</button>
+    </div>
+
     <div class="row">
         <div class="col-md-12">
             <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
@@ -11,10 +26,13 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <h1>Questão {{questinIndex}}</h1>
+    <div class="row" *ngIf="inicio">
         <div class="col-md-12">
-            <form #questionForm="ngForm" (submit)="submit()">
+            <h1>Questão {{questinIndex}}</h1>
+        </div>
+        <h5 class="text-dark">{{actualQuestion.category}}</h5>
+        <div class="col-md-12">
+            <form #questionForm="ngForm">
                 <label for="enunciado">{{actualQuestion.enunciado}} </label>
                 <ul>
                     <li *ngFor="let alternative of actualQuestion.alternatives">
@@ -29,6 +47,11 @@
                      class="btn btn-warning" 
                      *ngIf="qtdRespondida>0 && questinIndex!=1">
                          Voltar
+                    </button>
+                    <button type="button"
+                     (click)="quit()" 
+                     class="btn btn-danger">
+                         Sair
                     </button>
                     <button type="button"
                      (click)="salvarResposta()"
@@ -48,5 +71,32 @@
             </form>
         </div>
 
+    </div>
+    <div class="row" *ngIf="notas">
+        <h2>Parabéns por completar a prova! <br>Você acertou {{notas}} questões</h2>
+     
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <th>Questão:</th>
+                    <th>Alternativa Correta:</th>
+                    <th>Alternativa selecionada</th>
+                    <th>Resolução</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let q of answered">
+                        <td>{{q.enunciado}}</td>
+                        <td>{{q.alternaticaCorreta}}</td>
+                        <td>{{q.respostaSelecionada}}</td>
+                        <td>{{q.resolucao}}</td>
+       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3>Em termos de A2 sua noa foi: {{((notas*40)/100)}}</h3>
+        <div class="col-md-12">
+            <button type="button" (click)="quit()" class="btn btn-outline-primary mb-2">Reiniciar</button>
+        </div>
     </div>
 </div>

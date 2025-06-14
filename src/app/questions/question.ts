@@ -6,6 +6,7 @@ export class Question {
     resolucao: string;
     respostaSelecionada?: string; 
     category: string;
+    alternaticaCorreta?: string;
 
     constructor(
         enunciado: string = '',
