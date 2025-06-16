@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npx serve",
     "build": "ng build",
     "watch": "ng build --configuration=production",
     "test": "echo \"No tests configured.\" && exit 0",

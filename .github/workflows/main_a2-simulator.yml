@@ -70,5 +70,5 @@ jobs:
         with:
           app-name: 'A2-Simulator'
           slot-name: 'Production'
-          package: .
+          package: . 'dist/math-a3-app/browser'
           
