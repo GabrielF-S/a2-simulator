@@ -1,0 +1,1892 @@
+[
+    {
+        "enunciado": "O conjunto das partes de {1,2,3} possui quantos elementos?",
+        "alternatives": [
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "6",
+                "correta": false
+            },
+            {
+                "texto": "8",
+                "correta": true
+            },
+            {
+                "texto": "9",
+                "correta": false
+            }
+        ],
+        "resolucao": "O conjunto das partes de um conjunto com n elementos possui 2^n elementos.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Quantos elementos possui o produto cartesiano A × B, sendo A = {1, 2} e B = {a, b, c}?",
+        "alternatives": [
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "5",
+                "correta": false
+            },
+            {
+                "texto": "6",
+                "correta": true
+            },
+            {
+                "texto": "9",
+                "correta": false
+            },
+            {
+                "texto": "12",
+                "correta": false
+            }
+        ],
+        "resolucao": "O produto cartesiano A × B possui |A| × |B| elementos. Neste caso, 2 × 3 = 6.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "O número de subconjuntos de um conjunto com 5 elementos é:",
+        "alternatives": [
+            {
+                "texto": "10",
+                "correta": false
+            },
+            {
+                "texto": "25",
+                "correta": false
+            },
+            {
+                "texto": "32",
+                "correta": true
+            },
+            {
+                "texto": "16",
+                "correta": false
+            },
+            {
+                "texto": "20",
+                "correta": false
+            }
+        ],
+        "resolucao": "Um conjunto com n elementos possui 2^n subconjuntos. Para n = 5, temos 2^5 = 32.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Qual das alternativas representa corretamente o produto cartesiano A × B, sendo A = {1} e B = {x, y}?",
+        "alternatives": [
+            {
+                "texto": "{(x,1), (y,1)}",
+                "correta": false
+            },
+            {
+                "texto": "{(1,x), (1,y)}",
+                "correta": true
+            },
+            {
+                "texto": "{(1), (x,y)}",
+                "correta": false
+            },
+            {
+                "texto": "{(x), (y)}",
+                "correta": false
+            },
+            {
+                "texto": "{(x,1), (1,y)}",
+                "correta": false
+            }
+        ],
+        "resolucao": "No produto cartesiano A × B, o primeiro elemento do par vem de A e o segundo de B.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Se A possui 4 elementos e B possui 0 elementos, quantos pares ordenados tem A × B?",
+        "alternatives": [
+            {
+                "texto": "0",
+                "correta": true
+            },
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "8",
+                "correta": false
+            },
+            {
+                "texto": "1",
+                "correta": false
+            },
+            {
+                "texto": "2",
+                "correta": false
+            }
+        ],
+        "resolucao": "Se um dos conjuntos estiver vazio, o produto cartesiano também será vazio.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Quantos subconjuntos possuem exatamente 2 elementos em um conjunto com 4 elementos?",
+        "alternatives": [
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "6",
+                "correta": true
+            },
+            {
+                "texto": "8",
+                "correta": false
+            },
+            {
+                "texto": "12",
+                "correta": false
+            },
+            {
+                "texto": "2",
+                "correta": false
+            }
+        ],
+        "resolucao": "É uma combinação de 4 elementos tomados 2 a 2: C(4,2) = 6.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Qual é a interseção entre os conjuntos A = {1, 2, 3} e B = {2, 3, 4}?",
+        "alternatives": [
+            {
+                "texto": "{1, 4}",
+                "correta": false
+            },
+            {
+                "texto": "{2, 3}",
+                "correta": true
+            },
+            {
+                "texto": "{1, 2, 3, 4}",
+                "correta": false
+            },
+            {
+                "texto": "{}",
+                "correta": false
+            },
+            {
+                "texto": "{1, 3}",
+                "correta": false
+            }
+        ],
+        "resolucao": "A interseção de dois conjuntos contém apenas os elementos comuns a ambos.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Se A = {a, b}, então o conjunto das partes de A é:",
+        "alternatives": [
+            {
+                "texto": "{a, b}",
+                "correta": false
+            },
+            {
+                "texto": "{ {}, {a}, {b}, {a, b} }",
+                "correta": true
+            },
+            {
+                "texto": "{a}, {b}, {ab}",
+                "correta": false
+            },
+            {
+                "texto": "{{a}, {b}, {a, b}, {b, a}}",
+                "correta": false
+            },
+            {
+                "texto": "{{a, b}, {b, a}, {a}, {b}}",
+                "correta": false
+            }
+        ],
+        "resolucao": "O conjunto das partes contém todos os subconjuntos possíveis, incluindo o vazio.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Qual é o número total de elementos em A × A, se A = {1, 2, 3, 4}?",
+        "alternatives": [
+            {
+                "texto": "8",
+                "correta": false
+            },
+            {
+                "texto": "12",
+                "correta": false
+            },
+            {
+                "texto": "16",
+                "correta": true
+            },
+            {
+                "texto": "20",
+                "correta": false
+            },
+            {
+                "texto": "4",
+                "correta": false
+            }
+        ],
+        "resolucao": "Produto cartesiano A × A = |A| × |A| = 4 × 4 = 16.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Se o conjunto A tem 3 elementos, qual o total de subconjuntos com número par de elementos?",
+        "alternatives": [
+            {
+                "texto": "4",
+                "correta": true
+            },
+            {
+                "texto": "2",
+                "correta": false
+            },
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "5",
+                "correta": false
+            },
+            {
+                "texto": "6",
+                "correta": false
+            }
+        ],
+        "resolucao": "Com 3 elementos, temos 1 subconjunto com 0 elementos, 3 com 2 elementos: 1 + 3 = 4.",
+        "category": "Produto cartesiano e conjuntos"
+    },
+    {
+        "enunciado": "Qual é o grau do polinômio P(x) = 4x³ - 2x² + x - 7?",
+        "alternatives": [
+            {
+                "texto": "1",
+                "correta": false
+            },
+            {
+                "texto": "2",
+                "correta": false
+            },
+            {
+                "texto": "3",
+                "correta": true
+            },
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "5",
+                "correta": false
+            }
+        ],
+        "resolucao": "O grau do polinômio é o maior expoente presente na expressão.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Considere o polinômio P(x) = x³ - 6x² + 11x - 6. Qual das alternativas não é uma raiz de P(x)?",
+        "alternatives": [
+            {
+                "texto": "1",
+                "correta": false
+            },
+            {
+                "texto": "2",
+                "correta": false
+            },
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "6",
+                "correta": true
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "As raízes de P(x) = x³ - 6x² + 11x - 6 podem ser encontradas testando valores simples: P(1)=0, P(2)=0, P(3)=0. Logo, 1, 2 e 3 são raízes. Já P(6)=60, portanto, 6 não é raiz.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Qual é o coeficiente líder do polinômio P(x) = -5x⁴ + 3x³ - x + 8?",
+        "alternatives": [
+            {
+                "texto": "-5",
+                "correta": true
+            },
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "-1",
+                "correta": false
+            },
+            {
+                "texto": "8",
+                "correta": false
+            },
+            {
+                "texto": "0",
+                "correta": false
+            }
+        ],
+        "resolucao": "O coeficiente líder é o coeficiente do termo de maior grau, que neste caso é -5.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Qual é o resultado da soma dos polinômios P(x) = 2x² + 3x - 4 e Q(x) = x² - 5x + 7?",
+        "alternatives": [
+            {
+                "texto": "3x² - 2x + 3",
+                "correta": true
+            },
+            {
+                "texto": "x² - 8x + 3",
+                "correta": false
+            },
+            {
+                "texto": "3x² - 2x - 11",
+                "correta": false
+            },
+            {
+                "texto": "x² - 2x + 3",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Somando termo a termo, obtemos: (2x² + x²) + (3x - 5x) + (-4 + 7) = 3x² - 2x + 3.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Se P(x) = x² - 4x + 3, quais são as raízes de P(x)?",
+        "alternatives": [
+            {
+                "texto": "1 e 3",
+                "correta": true
+            },
+            {
+                "texto": "2 e 4",
+                "correta": false
+            },
+            {
+                "texto": "0 e 3",
+                "correta": false
+            },
+            {
+                "texto": "1 e 4",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Resolvendo P(x) = 0 pelo método da fatoração, temos (x - 1)(x - 3) = 0, então as raízes são x = 1 e x = 3.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Qual é a forma fatorada do polinômio P(x) = x² - 5x + 6?",
+        "alternatives": [
+            {
+                "texto": "(x - 2)(x - 3)",
+                "correta": true
+            },
+            {
+                "texto": "(x - 1)(x - 6)",
+                "correta": false
+            },
+            {
+                "texto": "(x - 3)(x - 5)",
+                "correta": false
+            },
+            {
+                "texto": "(x - 2)(x - 6)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Fatorando x² - 5x + 6, encontramos os números que somam -5 e multiplicam para 6: (x - 2)(x - 3).",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Se P(x) = 2x³ - 3x² + x - 5, qual é o termo de maior grau?",
+        "alternatives": [
+            {
+                "texto": "2x³",
+                "correta": true
+            },
+            {
+                "texto": "-3x²",
+                "correta": false
+            },
+            {
+                "texto": "x",
+                "correta": false
+            },
+            {
+                "texto": "-5",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O termo de maior grau é aquele com maior expoente, que neste caso é 2x³.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "O polinômio P(x) = x² - 2x é um polinômio de que grau?",
+        "alternatives": [
+            {
+                "texto": "2",
+                "correta": true
+            },
+            {
+                "texto": "1",
+                "correta": false
+            },
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "0",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O maior expoente do polinômio é 2, portanto seu grau é 2.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Qual é o valor de P(2) para P(x) = x² - x - 2?",
+        "alternatives": [
+            {
+                "texto": "0",
+                "correta": true
+            },
+            {
+                "texto": "1",
+                "correta": false
+            },
+            {
+                "texto": "2",
+                "correta": false
+            },
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Substituindo x=2 na equação: P(2) = (2)² - (2) - 2 = 4 - 2 - 2 = 0.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Se P(x) = x³ - 6x² + 11x - 6, quais são suas raízes?",
+        "alternatives": [
+            {
+                "texto": "1, 2 e 3",
+                "correta": true
+            },
+            {
+                "texto": "3, 4 e 5",
+                "correta": false
+            },
+            {
+                "texto": "2, 4 e 6",
+                "correta": false
+            },
+            {
+                "texto": "0, 1 e 3",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Testando valores simples, encontramos que P(1) = 0, P(2) = 0 e P(3) = 0, logo suas raízes são 1, 2 e 3.",
+        "category": "Polinômios"
+    },
+    {
+        "enunciado": "Qual das seguintes opções representa uma função?",
+        "alternatives": [
+            {
+                "texto": "{(1,2), (2,3), (3,4)}",
+                "correta": true
+            },
+            {
+                "texto": "{(1,2), (2,3), (3,4), (2,5)}",
+                "correta": false
+            },
+            {
+                "texto": "{(1,2), (2,2), (2,3), (3,4)}",
+                "correta": false
+            },
+            {
+                "texto": "{(1,2), (1,3), (2,4)}",
+                "correta": false
+            },
+            {
+                "texto": "{(1,2), (2,3), (3,4), (4,3), (4,5)}",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma função não pode ter um mesmo domínio associado a diferentes valores de imagem.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual das seguintes representações NÃO é uma função?",
+        "alternatives": [
+            {
+                "texto": "{(1,2), (2,3), (3,4), (4,5)}",
+                "correta": false
+            },
+            {
+                "texto": "{(0,1), (1,2), (2,3), (3,2)}",
+                "correta": false
+            },
+            {
+                "texto": "{(2,3), (2,4), (3,5), (4,6)}",
+                "correta": true
+            },
+            {
+                "texto": "{(-1,0), (0,1), (1,2), (2,3)}",
+                "correta": false
+            },
+            {
+                "texto": "{(5,6), (6,7), (7,8), (8,9)}",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma relação NÃO é função se um mesmo domínio tem mais de um valor de imagem, como ocorre em {(2,3), (2,4), (3,5), (4,6)}.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual é o domínio da função f(x) = x² - 4?",
+        "alternatives": [
+            {
+                "texto": "Todos os números reais",
+                "correta": true
+            },
+            {
+                "texto": "Apenas os números inteiros",
+                "correta": false
+            },
+            {
+                "texto": "Apenas os números positivos",
+                "correta": false
+            },
+            {
+                "texto": "Apenas os números naturais",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O domínio de uma função polinomial é o conjunto dos números reais, já que x pode assumir qualquer valor.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Se f(x) = 2x + 3, qual é o valor de f(4)?",
+        "alternatives": [
+            {
+                "texto": "11",
+                "correta": true
+            },
+            {
+                "texto": "9",
+                "correta": false
+            },
+            {
+                "texto": "7",
+                "correta": false
+            },
+            {
+                "texto": "5",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Substituindo x=4 na função: f(4) = 2(4) + 3 = 8 + 3 = 11.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual das funções abaixo é linear?",
+        "alternatives": [
+            {
+                "texto": "f(x) = 2x + 5",
+                "correta": true
+            },
+            {
+                "texto": "f(x) = x² - 3x + 2",
+                "correta": false
+            },
+            {
+                "texto": "f(x) = √x + 4",
+                "correta": false
+            },
+            {
+                "texto": "f(x) = 1/x",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma função linear tem a forma f(x) = ax + b, como a opção f(x) = 2x + 5.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual é a imagem da função f(x) = x² para x pertencente ao conjunto {1, 2, 3, 4}?",
+        "alternatives": [
+            {
+                "texto": "{1, 4, 9, 16}",
+                "correta": true
+            },
+            {
+                "texto": "{1, 2, 3, 4}",
+                "correta": false
+            },
+            {
+                "texto": "{2, 3, 4, 5}",
+                "correta": false
+            },
+            {
+                "texto": "{-1, -4, -9, -16}",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Substituindo os valores dados: f(1) = 1² = 1, f(2) = 2² = 4, f(3) = 3² = 9, f(4) = 4² = 16.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual é o conjunto de valores que a função f(x) = 1/x pode assumir?",
+        "alternatives": [
+            {
+                "texto": "Todos os reais, exceto 0",
+                "correta": true
+            },
+            {
+                "texto": "Todos os reais",
+                "correta": false
+            },
+            {
+                "texto": "Apenas os positivos",
+                "correta": false
+            },
+            {
+                "texto": "Apenas os negativos",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A função f(x) = 1/x é definida para todos os valores reais, exceto x=0, pois divisão por zero é indefinida.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Dada a função f(x) = x + 2, qual é o valor de x para que f(x) = 10?",
+        "alternatives": [
+            {
+                "texto": "8",
+                "correta": true
+            },
+            {
+                "texto": "6",
+                "correta": false
+            },
+            {
+                "texto": "10",
+                "correta": false
+            },
+            {
+                "texto": "12",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Igualamos f(x) a 10: x + 2 = 10 → x = 10 - 2 → x = 8.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "A relação f(x) = x² - 4x + 3 é uma função?",
+        "alternatives": [
+            {
+                "texto": "Sim",
+                "correta": true
+            },
+            {
+                "texto": "Não",
+                "correta": false
+            },
+            {
+                "texto": "Depende do valor de x",
+                "correta": false
+            },
+            {
+                "texto": "Apenas se x for positivo",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma equação polinomial sempre define uma função, pois cada valor de x tem um único valor de f(x).",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual das opções representa uma função exponencial?",
+        "alternatives": [
+            {
+                "texto": "f(x) = 2^x",
+                "correta": true
+            },
+            {
+                "texto": "f(x) = x² - x + 1",
+                "correta": false
+            },
+            {
+                "texto": "f(x) = x³ - 3x² + 2",
+                "correta": false
+            },
+            {
+                "texto": "f(x) = 1/x",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma função exponencial tem a forma f(x) = a^x, como f(x) = 2^x.",
+        "category": "Relações e funções"
+    },
+    {
+        "enunciado": "Qual é o resultado do produto escalar entre os vetores u = (1,2) e v = (3,4)?",
+        "alternatives": [
+            {
+                "texto": "6",
+                "correta": false
+            },
+            {
+                "texto": "8",
+                "correta": false
+            },
+            {
+                "texto": "9",
+                "correta": false
+            },
+            {
+                "texto": "10",
+                "correta": true
+            },
+            {
+                "texto": "12",
+                "correta": false
+            }
+        ],
+        "resolucao": "O produto escalar é obtido multiplicando os elementos correspondentes e somando os resultados.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Qual é o módulo do vetor v = (3,4)?",
+        "alternatives": [
+            {
+                "texto": "5",
+                "correta": true
+            },
+            {
+                "texto": "7",
+                "correta": false
+            },
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O módulo do vetor é dado por ||v|| = √(3² + 4²) = √(9 + 16) = √25 = 5.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Qual é o resultado da soma dos vetores u = (1,2) e v = (3,4)?",
+        "alternatives": [
+            {
+                "texto": "(4,6)",
+                "correta": true
+            },
+            {
+                "texto": "(2,3)",
+                "correta": false
+            },
+            {
+                "texto": "(5,5)",
+                "correta": false
+            },
+            {
+                "texto": "(1,6)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A soma de vetores é feita somando cada componente separadamente: (1+3, 2+4) = (4,6).",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Se o vetor u = (2,-3) for multiplicado por 3, qual será o vetor resultante?",
+        "alternatives": [
+            {
+                "texto": "(6,-9)",
+                "correta": true
+            },
+            {
+                "texto": "(5,-6)",
+                "correta": false
+            },
+            {
+                "texto": "(6,-6)",
+                "correta": false
+            },
+            {
+                "texto": "(4,-9)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Multiplicamos cada componente por 3: (2×3, -3×3) = (6,-9).",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "O vetor (0,0) é um vetor?",
+        "alternatives": [
+            {
+                "texto": "Sim",
+                "correta": true
+            },
+            {
+                "texto": "Não",
+                "correta": false
+            },
+            {
+                "texto": "Apenas em dimensões maiores",
+                "correta": false
+            },
+            {
+                "texto": "Depende do sistema de coordenadas",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O vetor (0,0) é chamado de vetor nulo, pois não possui direção nem sentido.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Qual das alternativas representa um vetor unitário?",
+        "alternatives": [
+            {
+                "texto": "(1,0)",
+                "correta": true
+            },
+            {
+                "texto": "(2,2)",
+                "correta": false
+            },
+            {
+                "texto": "(0,3)",
+                "correta": false
+            },
+            {
+                "texto": "(5,5)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Um vetor unitário tem módulo igual a 1. O vetor (1,0) tem módulo √(1² + 0²) = 1.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Se dois vetores são perpendiculares, qual será seu produto escalar?",
+        "alternatives": [
+            {
+                "texto": "0",
+                "correta": true
+            },
+            {
+                "texto": "1",
+                "correta": false
+            },
+            {
+                "texto": "Depende do módulo dos vetores",
+                "correta": false
+            },
+            {
+                "texto": "Pode ser qualquer valor positivo",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Dois vetores perpendiculares possuem produto escalar igual a 0, pois cos(90°) = 0.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Qual é a direção do vetor (4,4)?",
+        "alternatives": [
+            {
+                "texto": "45°",
+                "correta": true
+            },
+            {
+                "texto": "30°",
+                "correta": false
+            },
+            {
+                "texto": "90°",
+                "correta": false
+            },
+            {
+                "texto": "60°",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A direção do vetor pode ser obtida pelo ângulo θ = arctan(4/4) = arctan(1) = 45°.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Se o vetor u = (a,b) e v = (c,d), qual é a fórmula do produto escalar?",
+        "alternatives": [
+            {
+                "texto": "a×c + b×d",
+                "correta": true
+            },
+            {
+                "texto": "a×b + c×d",
+                "correta": false
+            },
+            {
+                "texto": "a×d + b×c",
+                "correta": false
+            },
+            {
+                "texto": "a+b+c+d",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O produto escalar entre dois vetores é obtido multiplicando os elementos correspondentes e somando: a×c + b×d.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Qual das opções representa um vetor paralelo a v = (2,3)?",
+        "alternatives": [
+            {
+                "texto": "(4,6)",
+                "correta": true
+            },
+            {
+                "texto": "(3,2)",
+                "correta": false
+            },
+            {
+                "texto": "(1,1)",
+                "correta": false
+            },
+            {
+                "texto": "(5,5)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Um vetor é paralelo a outro se for um múltiplo escalar dele. O vetor (4,6) é o dobro de (2,3), logo são paralelos.",
+        "category": "Vetores"
+    },
+    {
+        "enunciado": "Se A é uma matriz 2x3 e B é uma matriz 3x4, qual será a ordem do produto AB?",
+        "alternatives": [
+            {
+                "texto": "2x2",
+                "correta": false
+            },
+            {
+                "texto": "3x3",
+                "correta": false
+            },
+            {
+                "texto": "3x4",
+                "correta": false
+            },
+            {
+                "texto": "2x4",
+                "correta": true
+            },
+            {
+                "texto": "4x3",
+                "correta": false
+            }
+        ],
+        "resolucao": "O número de linhas da primeira matriz e o número de colunas da segunda matriz determinam a ordem do produto.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual é o determinante da matriz A = [[1, 2], [3, 4]]?",
+        "alternatives": [
+            {
+                "texto": "-2",
+                "correta": true
+            },
+            {
+                "texto": "2",
+                "correta": false
+            },
+            {
+                "texto": "0",
+                "correta": false
+            },
+            {
+                "texto": "4",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "O determinante é calculado por det(A) = (1×4) - (2×3) = 4 - 6 = -2.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual das seguintes matrizes é uma matriz identidade de ordem 2?",
+        "alternatives": [
+            {
+                "texto": "[[1, 0], [0, 1]]",
+                "correta": true
+            },
+            {
+                "texto": "[[0, 1], [1, 0]]",
+                "correta": false
+            },
+            {
+                "texto": "[[2, 0], [0, 2]]",
+                "correta": false
+            },
+            {
+                "texto": "[[1, 1], [1, 1]]",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma matriz identidade tem 1s na diagonal principal e 0s nos demais elementos.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual é o resultado da multiplicação da matriz [[1, 2], [3, 4]] pelo escalar 2?",
+        "alternatives": [
+            {
+                "texto": "[[2, 4], [6, 8]]",
+                "correta": true
+            },
+            {
+                "texto": "[[1, 4], [3, 8]]",
+                "correta": false
+            },
+            {
+                "texto": "[[2, 2], [6, 4]]",
+                "correta": false
+            },
+            {
+                "texto": "[[1, 2], [3, 4]]",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Cada elemento da matriz é multiplicado pelo escalar: (1×2, 2×2, 3×2, 4×2) = [[2, 4], [6, 8]].",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual das seguintes afirmações sobre matriz inversa é correta?",
+        "alternatives": [
+            {
+                "texto": "Uma matriz quadrada tem inversa se e somente se seu determinante for diferente de zero.",
+                "correta": true
+            },
+            {
+                "texto": "Toda matriz quadrada possui uma inversa.",
+                "correta": false
+            },
+            {
+                "texto": "A matriz identidade não possui inversa.",
+                "correta": false
+            },
+            {
+                "texto": "Somente matrizes 3x3 possuem inversa.",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma matriz quadrada só tem inversa se seu determinante for diferente de zero.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual das alternativas representa um sistema de equações linear?",
+        "alternatives": [
+            {
+                "texto": "x + y = 5; 2x - y = 3",
+                "correta": true
+            },
+            {
+                "texto": "x² + y² = 4; x + y = 2",
+                "correta": false
+            },
+            {
+                "texto": "x³ - y³ = 1; x + y = 3",
+                "correta": false
+            },
+            {
+                "texto": "log(x) + y = 2; x - y = 1",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Um sistema de equações linear é composto apenas por equações de primeiro grau.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual das alternativas representa uma matriz simétrica?",
+        "alternatives": [
+            {
+                "texto": "[[1, 2], [2, 1]]",
+                "correta": true
+            },
+            {
+                "texto": "[[1, 0], [2, 1]]",
+                "correta": false
+            },
+            {
+                "texto": "[[2, 3], [4, 5]]",
+                "correta": false
+            },
+            {
+                "texto": "[[0, 1], [1, 0]]",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Uma matriz simétrica é aquela que é igual à sua transposta, ou seja, M = Mᵀ.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Se um sistema linear tem mais equações do que incógnitas, qual das afirmações é verdadeira?",
+        "alternatives": [
+            {
+                "texto": "O sistema pode ser impossível ou ter solução única.",
+                "correta": true
+            },
+            {
+                "texto": "O sistema sempre tem infinitas soluções.",
+                "correta": false
+            },
+            {
+                "texto": "O sistema nunca tem solução.",
+                "correta": false
+            },
+            {
+                "texto": "O sistema é sempre determinado.",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Se há mais equações do que incógnitas, pode haver inconsistências, tornando o sistema impossível ou com solução única.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual é a matriz transposta de A = [[1, 2, 3], [4, 5, 6]]?",
+        "alternatives": [
+            {
+                "texto": "[[1, 4], [2, 5], [3, 6]]",
+                "correta": true
+            },
+            {
+                "texto": "[[1, 2], [3, 4], [5, 6]]",
+                "correta": false
+            },
+            {
+                "texto": "[[1, 3], [2, 4], [5, 6]]",
+                "correta": false
+            },
+            {
+                "texto": "[[1, 5], [2, 6], [3, 4]]",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A transposta de uma matriz é obtida trocando suas linhas por colunas.",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Se A = [[2, 3], [1, 4]] e B = [[5, 6], [7, 8]], qual é o resultado da soma A + B?",
+        "alternatives": [
+            {
+                "texto": "[[7, 9], [8, 12]]",
+                "correta": true
+            },
+            {
+                "texto": "[[10, 12], [14, 16]]",
+                "correta": false
+            },
+            {
+                "texto": "[[3, 3], [1, 4]]",
+                "correta": false
+            },
+            {
+                "texto": "[[5, 6], [7, 8]]",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A soma de matrizes é realizada somando seus elementos correspondentes: [[2+5, 3+6], [1+7, 4+8]] = [[7, 9], [8, 12]].",
+        "category": "Matrizes e sistemas de equações lineares"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = x² + 3x - 5?",
+        "alternatives": [
+            {
+                "texto": "x + 3",
+                "correta": false
+            },
+            {
+                "texto": "2x + 3",
+                "correta": true
+            },
+            {
+                "texto": "2x - 3",
+                "correta": false
+            },
+            {
+                "texto": "x² + 3",
+                "correta": false
+            },
+            {
+                "texto": "3x² - 5",
+                "correta": false
+            }
+        ],
+        "resolucao": "A derivada é obtida aplicando a regra do expoente, reduzindo-o em 1.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = 4x³ - 2x² + x - 7?",
+        "alternatives": [
+            {
+                "texto": "12x² - 4x + 1",
+                "correta": true
+            },
+            {
+                "texto": "4x² - 2x + 1",
+                "correta": false
+            },
+            {
+                "texto": "8x² - 4x + 1",
+                "correta": false
+            },
+            {
+                "texto": "12x³ - 2x + 1",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Aplicamos a regra do expoente: f'(x) = 12x² - 4x + 1.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = sen(x)?",
+        "alternatives": [
+            {
+                "texto": "cos(x)",
+                "correta": true
+            },
+            {
+                "texto": "-cos(x)",
+                "correta": false
+            },
+            {
+                "texto": "sen(x)",
+                "correta": false
+            },
+            {
+                "texto": "-sen(x)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A derivada da função seno é a função cosseno: f'(x) = cos(x).",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = e^x?",
+        "alternatives": [
+            {
+                "texto": "e^x",
+                "correta": true
+            },
+            {
+                "texto": "xe^x",
+                "correta": false
+            },
+            {
+                "texto": "e^(x+1)",
+                "correta": false
+            },
+            {
+                "texto": "ln(x)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A derivada de e^x é a própria função: f'(x) = e^x.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = ln(x)?",
+        "alternatives": [
+            {
+                "texto": "1/x",
+                "correta": true
+            },
+            {
+                "texto": "ln(x)",
+                "correta": false
+            },
+            {
+                "texto": "e^x",
+                "correta": false
+            },
+            {
+                "texto": "x²",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A derivada de ln(x) é dada por f'(x) = 1/x.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = x³ - 5x?",
+        "alternatives": [
+            {
+                "texto": "3x² - 5",
+                "correta": true
+            },
+            {
+                "texto": "3x³ - 5x",
+                "correta": false
+            },
+            {
+                "texto": "x² - 5",
+                "correta": false
+            },
+            {
+                "texto": "x³ - 5",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Aplicamos a regra do expoente: f'(x) = 3x² - 5.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Se f(x) = x² - 3x + 7, qual é a derivada segunda f''(x)?",
+        "alternatives": [
+            {
+                "texto": "2",
+                "correta": true
+            },
+            {
+                "texto": "2x",
+                "correta": false
+            },
+            {
+                "texto": "x - 3",
+                "correta": false
+            },
+            {
+                "texto": "3",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A primeira derivada é f'(x) = 2x - 3. Derivando novamente, obtemos f''(x) = 2.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = x⁴ - 2x² + 3?",
+        "alternatives": [
+            {
+                "texto": "4x³ - 4x",
+                "correta": true
+            },
+            {
+                "texto": "4x² - 2x",
+                "correta": false
+            },
+            {
+                "texto": "x³ - 2x",
+                "correta": false
+            },
+            {
+                "texto": "4x³ + 2x",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "Aplicamos a regra do expoente: f'(x) = 4x³ - 4x.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a derivada da função f(x) = 1/x?",
+        "alternatives": [
+            {
+                "texto": "-1/x²",
+                "correta": true
+            },
+            {
+                "texto": "1/x²",
+                "correta": false
+            },
+            {
+                "texto": "ln(x)",
+                "correta": false
+            },
+            {
+                "texto": "-ln(x)",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A derivada de f(x) = 1/x é f'(x) = -1/x².",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a interpretação física da derivada?",
+        "alternatives": [
+            {
+                "texto": "Taxa de variação instantânea",
+                "correta": true
+            },
+            {
+                "texto": "Soma dos coeficientes da função",
+                "correta": false
+            },
+            {
+                "texto": "Valor mínimo da função",
+                "correta": false
+            },
+            {
+                "texto": "Área sob a curva da função",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A derivada representa a taxa de variação instantânea da função em um determinado ponto.",
+        "category": "Derivadas e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida de f(x) = 3x²?",
+        "alternatives": [
+            {
+                "texto": "x³ + C",
+                "correta": true
+            },
+            {
+                "texto": "3x³",
+                "correta": false
+            },
+            {
+                "texto": "9x",
+                "correta": false
+            },
+            {
+                "texto": "x² + 3x",
+                "correta": false
+            },
+            {
+                "texto": "3x³ + C",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral é obtida aumentando o expoente e dividindo pelo novo expoente.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = 5x³?",
+        "alternatives": [
+            {
+                "texto": "(5/4)x⁴ + C",
+                "correta": true
+            },
+            {
+                "texto": "5x⁴ + C",
+                "correta": false
+            },
+            {
+                "texto": "x⁴ + C",
+                "correta": false
+            },
+            {
+                "texto": "5x³ + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral é obtida aumentando o expoente em 1 e dividindo pelo novo expoente: (5/4)x⁴ + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida de f(x) = 7?",
+        "alternatives": [
+            {
+                "texto": "7x + C",
+                "correta": true
+            },
+            {
+                "texto": "7x² + C",
+                "correta": false
+            },
+            {
+                "texto": "x + C",
+                "correta": false
+            },
+            {
+                "texto": "C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral de uma constante é obtida multiplicando-a por x: ∫7dx = 7x + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = e^x?",
+        "alternatives": [
+            {
+                "texto": "e^x + C",
+                "correta": true
+            },
+            {
+                "texto": "xe^x + C",
+                "correta": false
+            },
+            {
+                "texto": "ln(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "x² + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral da função exponencial é a própria função: ∫e^x dx = e^x + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = 1/x?",
+        "alternatives": [
+            {
+                "texto": "ln|x| + C",
+                "correta": true
+            },
+            {
+                "texto": "ln(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "1/x² + C",
+                "correta": false
+            },
+            {
+                "texto": "x² + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral de 1/x é dada por ∫(1/x)dx = ln|x| + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = cos(x)?",
+        "alternatives": [
+            {
+                "texto": "sen(x) + C",
+                "correta": true
+            },
+            {
+                "texto": "-sen(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "cos(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "tan(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral da função cosseno é a função seno: ∫cos(x)dx = sen(x) + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = sen(x)?",
+        "alternatives": [
+            {
+                "texto": "-cos(x) + C",
+                "correta": true
+            },
+            {
+                "texto": "cos(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "sen(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "tan(x) + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral da função seno é a função cosseno com sinal negativo: ∫sen(x)dx = -cos(x) + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = x⁵ - 2x² + 3?",
+        "alternatives": [
+            {
+                "texto": "(1/6)x⁶ - (2/3)x³ + 3x + C",
+                "correta": true
+            },
+            {
+                "texto": "(1/5)x⁵ - (2/3)x² + 3x + C",
+                "correta": false
+            },
+            {
+                "texto": "x⁶ - 2x³ + 3x + C",
+                "correta": false
+            },
+            {
+                "texto": "x⁵ - 2x² + 3 + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral é obtida aumentando o expoente de cada termo e dividindo pelo novo expoente.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a integral indefinida da função f(x) = 2/x?",
+        "alternatives": [
+            {
+                "texto": "2ln|x| + C",
+                "correta": true
+            },
+            {
+                "texto": "ln|x| + C",
+                "correta": false
+            },
+            {
+                "texto": "2/x² + C",
+                "correta": false
+            },
+            {
+                "texto": "2x + C",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral de 2/x é dada por ∫(2/x)dx = 2ln|x| + C.",
+        "category": "Integrais e suas aplicações"
+    },
+    {
+        "enunciado": "Qual é a aplicação da integral definida?",
+        "alternatives": [
+            {
+                "texto": "Cálculo de áreas sob a curva",
+                "correta": true
+            },
+            {
+                "texto": "Determinar raízes de equações",
+                "correta": false
+            },
+            {
+                "texto": "Calcular derivadas",
+                "correta": false
+            },
+            {
+                "texto": "Encontrar máximos locais",
+                "correta": false
+            },
+            {
+                "texto": "Nenhuma das alternativas",
+                "correta": false
+            }
+        ],
+        "resolucao": "A integral definida é utilizada para calcular áreas sob a curva de uma função em um intervalo específico.",
+        "category": "Integrais e suas aplicações"
+    }
+]

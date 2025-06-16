@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/a2-simulator": {},
+    "/a2-simulator/home": {},
+    "/a2-simulator/learning": {},
+    "/a2-simulator/questions": {}
+  }
+}
