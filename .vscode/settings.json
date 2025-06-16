@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/62bd218d-b34a-4687-ad89-285b64a0f9d8/resourceGroups/A2-Simulador_group/providers/Microsoft.Web/sites/A2-Simulador",
+    "appService.deploySubpath": "dist\\math-a3-app"
+}
