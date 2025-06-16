@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npx serve",
+    "start": "npx serve -s dist/math-a3-app/browser",
     "build": "ng build",
     "watch": "ng build --configuration=production",
     "test": "echo \"No tests configured.\" && exit 0",
